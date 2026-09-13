@@ -1,0 +1,47 @@
+.container{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "sidebar nav" "sidebar article" "footer footer";
+    gap: 15px; 
+    color:white;
+    font-size:50px;
+    width:90%;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.header{
+    grid-area:header;
+    background-color: yellow;
+    border-radius: 20px;
+
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: orange;
+    border-radius: 20px;
+}
+.nav{
+    grid-area: nav;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.article{
+    grid-area:article;
+    background-color: silver;
+    border-radius: 20px;
+    font-size:20px;
+    padding:10px;
+}
+.footer{
+    grid-area:footer;
+    background-color: rgb(65, 65, 65);
+    border-radius: 15px;
+    
+}
+.art{
+    text-align: center;
+    font-size: 50px;
+}

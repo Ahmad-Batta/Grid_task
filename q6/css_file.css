@@ -1,0 +1,45 @@
+html,body{
+    background-image: linear-gradient(to right, rgb(255, 0, 230) , rgb(170, 0, 255));
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 60px);
+    
+}
+.parent div {
+    background-color: rgb(255, 217, 0); /* لون المربعات من جوا */
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.div25 {
+    grid-column: span 8 / span 8;
+}
+
+.div26 {
+    grid-row-start: 5;
+}
+
+.div27 {
+    grid-row-start: 5;
+}
+
+.div28 {
+    grid-row-start: 5;
+}
+
+.div29 {
+    grid-row-start: 5;
+}
+
+.div30 {
+    grid-row-start: 5;
+}
+        

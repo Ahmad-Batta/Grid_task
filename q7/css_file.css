@@ -1,0 +1,28 @@
+.main-content {
+    border: 2px solid #555;
+    padding: 30px;
+    margin: 60px auto;
+    max-width: 900px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 250px); /* 3 أعمدة متساوية */
+    gap: 30px; /* المسافة بين العناصر أفقياً وعمودياً */
+    border: 2px solid #888;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    align-items: start; /* بتخلي العناصر تطلع لأعلى الخلية */
+}
+
+.item {
+    background-color: #6c7a89;
+    color: white;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    text-align: center;
+    font-weight: bold;
+
+}
